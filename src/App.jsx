@@ -321,6 +321,13 @@ export default function TemplateEditor() {
         >
           Save JSON
         </button>
+        
+        <button
+          className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm hover:border-slate-400"
+          onClick={exportMp4Dummy}
+        >
+          Export to MP4 (dummy)
+        </button>
       </div>
     </header>
 
